@@ -1,0 +1,40 @@
+.moreInfo {
+    background-color: #1DB954;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.artist-card {
+    display: flex;
+    justify-content: space-around
+}
+
+.artist-card h1 {
+    color: #FFFF;
+}
+
+.artist-card img {
+    border-radius: 15%;
+}
+
+.followers-count {
+    color: #FFFF;
+}
+
+.card {
+    margin: auto;
+    padding: 1.5rem .5rem;
+    background-color: black;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.info {
+    display: grid;
+    justify-items: center;
+}
+
+.info h1 {
+    margin: auto;
+}

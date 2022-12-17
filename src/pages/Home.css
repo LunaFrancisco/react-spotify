@@ -1,0 +1,15 @@
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 7rem;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    padding-top: 10rem;
+    font-size: 3rem;
+}
