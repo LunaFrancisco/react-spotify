@@ -1,0 +1,21 @@
+.search-artist {
+    padding: 10px;
+    width: 400px;
+    border-radius: 25px;
+    font-size: 1rem;
+    margin: 15px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+/* .search-icon{
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-size: 2rem;
+    background-color: #ffff;
+    padding: 10px;
+    position:relative
+} */
