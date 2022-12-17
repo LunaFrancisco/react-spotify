@@ -1,0 +1,28 @@
+.sideBar {
+  background-color: black;
+  height: 90vh;
+  width: 20%;
+}
+
+.musicBar {
+  background-color: black;
+  height: 10vh;
+  width: 100%;
+  position: absolute;
+
+}
+
+.sectionBar {
+  background-color: white;
+  color: black;
+  height: 90vh;
+  width: 80%;
+  position: absolute;
+  right: 0px;
+
+}
+
+.logo {
+  margin: 2rem 3rem;
+  height: 6rem;
+}
