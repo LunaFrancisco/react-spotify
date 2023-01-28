@@ -5,7 +5,7 @@ export const Card = props => {
   // const genres = props.data.artists.items[0].genres
   const image = props.data.artists.items[0].images[2].url
   const followers = props.data.artists.items[0].followers.total
-  const href = props.data.artists.items[0].external_urls
+  // const href = props.data.artists.items[0].external_urls
 
   return (
     <div className='card'>
@@ -14,11 +14,9 @@ export const Card = props => {
         <div className='info'>
           <h1>{name}</h1>
           <p className='followers-count'>{followers} followers</p>
-          <a className="moreInfo" href={href.toString()}> Mas Información</a>
+          <a className="moreInfo" href={() => false}> Mas Información</a>
         </div>
       </div>
-
-
     </div>
 
   )

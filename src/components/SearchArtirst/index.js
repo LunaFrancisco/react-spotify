@@ -37,7 +37,6 @@ export const SearchArtist = () => {
         <form onSubmit={searchArtist}>
           <input placeholder='Bad Bunny...' className='search-artist search-icon' type="text" onChange={e => setSearchKey(e.target.value)}></input>
         </form>
-
       </div>
       <Card
         data={data ? data : benito}

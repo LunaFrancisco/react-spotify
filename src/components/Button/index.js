@@ -3,7 +3,7 @@ import('./index.css')
 export const Button = (props) => {
   return (
     <div>
-      <a className={`Button ${props.color}`} onClick={props.onClick}> {props.label} </a>
+      <a href={() => false} className={`Button ${props.color}`} onClick={props.onClick}> {props.label} </a>
     </div>
   )
 }
