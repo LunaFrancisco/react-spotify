@@ -12,6 +12,17 @@
     padding-bottom: 2rem;
 }
 
+.references{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center !important;
+}
+
+.reference-content{
+    width: 70%;
+    margin: auto;
+}
 /* .search-icon{
     background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
     background-size: 2rem;

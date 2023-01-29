@@ -18,8 +18,7 @@ export const Home = () => {
   return (
     <div className='Home'>
 
-      {!token 
-        ? <Login />
+      {!token ? <Login />
           : <>
             <LogoutButton />
             <h1 className='title'>Buscador de Artistas</h1>
